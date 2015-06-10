@@ -15,9 +15,9 @@ body
 }
 
 
-/************/
-/*  HEADER  */
-/************/
+            /************/
+            /*  HEADER  */
+            /************/
 
 #titre_principal
 {
@@ -82,9 +82,9 @@ nav a:hover
 }
 
 
-/**************/
-/*  BANNIERE  */
-/**************/
+            /**************/
+            /*  BANNIERE  */
+            /**************/
 
 #banner
 {
@@ -93,13 +93,15 @@ nav a:hover
 }
 
 
-/*************/
-/*  ARTICLE  */
-/*************/
+            /*************/
+            /*  ARTICLE  */
+            /*************/
 
 section
 {
     display: inline-block;
+    padding-top: 5px;
+    /*background-color: blue;*/
 }
 
 section h1
@@ -111,14 +113,22 @@ section h1
     color: white;
 }
 
+section h2
+{
+    font-family: Dayrom, serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
 article
 {
     width: 600px;
     height: 200px;
     display: inline-block;
     text-align: justify;
-    margin-top: 20px;
-    padding: 1px 10px 5px 10px;
+    padding: 0 10px 0 10px;
     border-radius: 20px;
     background-color: #757575;
 }
@@ -126,8 +136,10 @@ article
 #last_photo
 {
     display: inline-block;
-    width: 270px;
-    height: 200px;
+    width: 250px;
+    background-color: #FFD180;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 #last_photo img
@@ -135,6 +147,8 @@ article
     width: 250px;
     height: auto;
     text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
 }
 /*
 div
@@ -189,11 +203,6 @@ p
   -moz-transition: height .5s;
 }
 */
-small
-{
-  width: 100%;
-  opacity: 0;
-}
 
 .bolas_phosphorescent
 {
