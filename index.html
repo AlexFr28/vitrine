@@ -1,51 +1,85 @@
 <!DOCTYPE html>
-
-<head>
-  <meta charset="UTF-8" />
-  <script src="jquery.js"></script>
-  <!--<script src="http://code.jquery.com/jquery.min.js"></script>-->
-  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-
-  <h1>Mateode Spectacle</h1>
-  <h2>Jonglerie à Orléans</h2>
-
-  <h3>Mon équipement :</h3>
-
-    <div id="phos" class="bolas_phosphorescent">
-      <p id="phos_p">Bolas phosphorescentes<br />
-        <small>
-          Description des bolas phosporescentes. 
-        </small>
-      </p>
-    </div>
-
-    <div class="bolas_fire">
-      <p>Bolas feu<br />
-        <small>
-          Description des bolas feu.
-        </small>
-      </p>
-    </div>
-    
-    <div class="bolas_snike">
-      <p>Bolas snike<br />
-        <small>
-          Description des bolas snike.
-        </small>
-      </p>
-    </div>
+<html>
   
-  <script>
+    <head>
+        <meta charset="UTF-8" />
+        <!--<script src="jquery.js"></script>-->
+        <!--<script src="http://code.jquery.com/jquery.min.js"></script>-->
+        <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Bolas</title>
+    </head>
 
-    $('#phos').on("click", function()
-    {
-      $('#phos_p').toggleClass('show-description');
-    });
+    <body>
 
-  </script>
+        <div id="bloc_page">
+
+            <header>
+
+                <div id="logo">
+                    <img id="logo" src="assets/icone2.jpg">
+                </div>
+
+                <div id="titre_principal">
+                    <h1>Mateode Spectacle</h1>
+                    <h2>Jonglerie à Orléans</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Photos</a></li>
+                        </ul>
+                    </nav>
+                </div>
   
-</body>
+            </header>
+    <!--
+      <section id="equipment">
+
+        <h3>L'équipement :</h3>
+
+        <div class="bolas_phosphorescent">
+          <p>Bolas phosphorescentes<br />
+            <small>
+              Description des bolas phosporescentes. 
+            </small>
+          </p>
+        </div>
+
+        <div class="bolas_fire">
+          <p>Bolas feu<br />
+            <small>
+              Description des bolas feu.
+            </small>
+          </p>
+        </div>
+        
+        <div class="bolas_snike">
+          <p>Bolas snike<br />
+            <small>
+              Description des bolas snike.
+            </small>
+          </p>
+        </div>
+
+      </section>
+
+      <h3>Quelques photos</h3>
+
+      <div>
+        <img src="assets/photo1.jpg">
+      </div>-->
+      <!--
+      <script>
+
+        $('#phos').on("click", function()
+        {
+          $('#phos_p').toggleClass('show-description');
+        });
+
+      </script>
+      -->
+        </div>
+
+    </body>
+
+</html>
